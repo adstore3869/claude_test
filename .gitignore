@@ -36,11 +36,25 @@ ENV/
 *.avi
 *.mov
 *.mkv
+*.flv
+*.wmv
+
+# Image files (optional)
+# *.jpg
+# *.jpeg
+# *.png
 
 # Results
 results*.json
+tracking_results_*.json
+realtime_results.json
 output_video.*
+output.*
 
 # OS
 .DS_Store
 Thumbs.db
+.directory
+
+# Logs
+*.log
